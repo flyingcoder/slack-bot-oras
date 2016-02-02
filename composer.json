@@ -1,0 +1,27 @@
+{
+    "name": "flyingcoder/cmd-parser",
+    "description": "This is a command base text parser",
+    "type": "project",
+    "authors": [
+        {
+            "name": "Alvin Pacot",
+            "email": "aepacot2016@gmail.com"
+        }
+    ],
+    "minimum-stability" : "dev",
+    "require": {
+        "jclg/php-slack-bot": "dev-master",
+        "LeoExpress/Time": "^0.1.0"
+    },
+
+    "autoload": {
+        "psr-4": {
+            "Flyingcoder\\": "src/",
+            "FlyingcoderTest\\": "tests/"
+        }
+    },
+
+    "require-dev": {
+        "phpunit/phpunit": "4.8.*"
+    }
+}
